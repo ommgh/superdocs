@@ -1,10 +1,12 @@
 import { Header } from './header'
 import { HeroSection } from './hero-section'
-import { MetricsBar } from './metrics-bar'
+import { TeamsDisplay } from './metrics-bar'
 import { InfrastructureSection } from './infrastructure-section'
 import { FeaturesSection } from './features-section'
 import { ComplianceSection } from './compliance-section'
 import { PricingSection } from './pricing-section'
+import { CtaSection } from './cta-section'
+import { Footer } from './footer'
 
 export function LandingPage() {
   return (
@@ -13,7 +15,7 @@ export function LandingPage() {
 
       <HeroSection />
 
-      <MetricsBar />
+      <TeamsDisplay />
 
       <InfrastructureSection />
 
@@ -23,15 +25,9 @@ export function LandingPage() {
 
       <PricingSection />
 
-      <div className="w-full border-t border-edge">
-        <div className="mx-auto max-w-6xl border-x border-edge h-16">
-          <img
-            src="/superdocs.svg"
-            alt="Sent Logo"
-            className="h-6 mx-auto my-5 opacity-50"
-          />
-        </div>
-      </div>
+      <CtaSection />
+
+      <Footer />
     </div>
   )
 }

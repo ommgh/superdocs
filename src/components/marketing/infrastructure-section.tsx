@@ -13,7 +13,7 @@ export function InfrastructureSection({
       <div className="mx-auto max-w-6xl border-x border-edge">
         <div className="grid lg:grid-cols-2 gap-12 px-6 py-16">
           <div className="flex flex-col justify-center">
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
+            <h2 className="text-4xl lg:text-5xl font-medium tracking-tight leading-tight">
               Infrastructure,
               <br />
               not just APIs.
