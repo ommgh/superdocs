@@ -1,9 +1,9 @@
 {
-  "projectName": "start-app",
+  "projectName": "superdocs",
   "mode": "file-router",
   "typescript": true,
   "tailwind": true,
-  "packageManager": "bun",
+  "packageManager": "pnpm",
   "addOnOptions": {},
   "git": true,
   "version": 1,
