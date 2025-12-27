@@ -1,5 +1,6 @@
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
+import { ArrowRightIcon } from '@phosphor-icons/react'
 
 interface HeaderProps {
   className?: string
@@ -16,15 +17,17 @@ export function Header({ className }: HeaderProps) {
         </div>
         <div className="flex items-center gap-4">
           <a
-            href="#"
+            href="/auth/login"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors hidden sm:block"
           >
             Sign-in
           </a>
-          <Button size="lg" className="gap-2">
-            Get API Keys
-            <span>→</span>
-          </Button>
+          <a href="/auth/register">
+            <Button size="lg" className="gap-2">
+              Get Started
+              <ArrowRightIcon />
+            </Button>
+          </a>
         </div>
       </div>
     </header>

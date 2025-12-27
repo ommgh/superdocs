@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
+import { ArrowRightIcon } from '@phosphor-icons/react'
 
 interface HeroSectionProps {
   className?: string
@@ -23,7 +24,7 @@ export function HeroSection({ className }: HeroSectionProps) {
             <div className="flex flex-wrap items-center gap-3 mt-8">
               <Button size="lg" className="gap-2">
                 Get API Keys
-                <span>→</span>
+                <ArrowRightIcon />
               </Button>
               <Button variant="outline" size="lg">
                 Explore docs
@@ -32,7 +33,7 @@ export function HeroSection({ className }: HeroSectionProps) {
 
             <div className="flex flex-wrap items-center gap-2 mt-8 text-xs text-muted-foreground">
               <code className="bg-muted px-2 py-1 rounded">
-                npm install @superdocs/core
+                bun install @superdocs/core
               </code>
             </div>
           </div>
