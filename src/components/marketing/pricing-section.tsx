@@ -29,7 +29,7 @@ export function PricingSection({ className }: PricingSectionProps) {
               </div>
               <p className="text-xs text-muted-foreground mb-6">
                 Free forever plan for developers to explore and build with
-                Superdocs.
+                Agentify.
               </p>
 
               <div className="space-y-3 mb-8">

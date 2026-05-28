@@ -12,12 +12,12 @@ export function Footer({ className }: FooterProps) {
       <div className="mx-auto max-w-6xl border-x border-t border-edge">
         <div className="flex items-center justify-between px-6 py-5">
           <img
-            src="/superdocs.svg"
-            alt="Superdocs Logo"
+            src="/ag-logo.svg"
+            alt="Agentify Logo"
             className="h-6 opacity-50"
           />
           <p className="text-xs text-muted-foreground">
-            © {currentYear} Superdocs. All rights reserved.
+            © {currentYear} Agentify. All rights reserved.
           </p>
         </div>
       </div>

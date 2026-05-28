@@ -1,6 +1,6 @@
+import { ArrowRightIcon } from '@phosphor-icons/react'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
-import { ArrowRightIcon } from '@phosphor-icons/react'
 
 interface HeaderProps {
   className?: string
@@ -12,7 +12,7 @@ export function Header({ className }: HeaderProps) {
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6 border-x border-edge">
         <div className="flex items-center gap-8">
           <a href="/" className="flex items-center gap-2">
-            <img src="/superdocs.svg" alt="Super Logo" className="h-32 w-32" />
+            <img src="/ag-logo.svg" alt="Agentify Logo" className="h-32 w-32" />
           </a>
         </div>
         <div className="flex items-center gap-4">

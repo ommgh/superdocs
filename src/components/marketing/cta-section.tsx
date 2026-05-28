@@ -17,8 +17,7 @@ export function CtaSection({ className }: CtaSectionProps) {
                 Ready to get started
               </h2>
               <p className="text-sm text-muted-foreground max-w-md mx-auto mb-8">
-                Start building with Superdocs today. Free forever for
-                developers.
+                Start building with Agentify today. Free forever for developers.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-3">
                 <Button size="lg" className="gap-2">

@@ -15,10 +15,10 @@ export function FeaturesSection({ className }: FeaturesSectionProps) {
             <div className="bg-card p-6 relative overflow-hidden min-h-70">
               <h3 className="font-semibold text-base mb-2">Custom Resource</h3>
               <p className="text-xs text-muted-foreground mb-6 max-w-[70%]">
-                Superdocs can extract and generate MCP Servers from any resource
+                Agentify can extract and generate MCP Servers from any resource
               </p>
               <img
-                src="/super-feature-1.svg"
+                src="/ag-f-one.svg"
                 alt="Custom Resource Generation"
                 className="absolute -bottom-5 -right-5 max-w-[75%] h-auto"
               />
@@ -32,10 +32,10 @@ export function FeaturesSection({ className }: FeaturesSectionProps) {
                 Intelligent Orchestration Layer
               </h3>
               <p className="text-xs text-muted-foreground mb-6 max-w-[70%]">
-                Superdocs handles tools, methods, and server management.
+                Agentify handles tools, methods, and server management.
               </p>
               <img
-                src="/super-feature-2.svg"
+                src="/ag-f-two.svg"
                 alt="Orchestration Layer"
                 className="absolute -bottom-5 -right-5 max-w-[75%] h-auto"
               />

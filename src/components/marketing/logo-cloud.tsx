@@ -14,74 +14,55 @@ export default function LogoCloud() {
               <div className="flex">
                 <img
                   className="mx-auto h-5 w-fit dark:invert"
-                  src="https://html.tailus.io/blocks/customers/nvidia.svg"
-                  alt="Nvidia Logo"
-                  height="20"
-                  width="auto"
-                />
-              </div>
-
-              <div className="flex">
-                <img
-                  className="mx-auto h-4 w-fit dark:invert"
-                  src="https://html.tailus.io/blocks/customers/column.svg"
-                  alt="Column Logo"
-                  height="16"
-                  width="auto"
-                />
-              </div>
-              <div className="flex">
-                <img
-                  className="mx-auto h-4 w-fit dark:invert"
-                  src="https://html.tailus.io/blocks/customers/github.svg"
-                  alt="GitHub Logo"
-                  height="16"
-                  width="auto"
-                />
-              </div>
-              <div className="flex">
-                <img
-                  className="mx-auto h-5 w-fit dark:invert"
-                  src="https://html.tailus.io/blocks/customers/nike.svg"
-                  alt="Nike Logo"
-                  height="20"
-                  width="auto"
-                />
-              </div>
-              <div className="flex">
-                <img
-                  className="mx-auto h-5 w-fit dark:invert"
-                  src="https://html.tailus.io/blocks/customers/lemonsqueezy.svg"
-                  alt="Lemon Squeezy Logo"
-                  height="20"
-                  width="auto"
-                />
-              </div>
-              <div className="flex">
-                <img
-                  className="mx-auto h-4 w-fit dark:invert"
-                  src="https://html.tailus.io/blocks/customers/laravel.svg"
-                  alt="Laravel Logo"
-                  height="16"
-                  width="auto"
-                />
-              </div>
-              <div className="flex">
-                <img
-                  className="mx-auto h-7 w-fit dark:invert"
-                  src="https://html.tailus.io/blocks/customers/lilly.svg"
-                  alt="Lilly Logo"
-                  height="28"
-                  width="auto"
-                />
-              </div>
-
-              <div className="flex">
-                <img
-                  className="mx-auto h-6 w-fit dark:invert"
-                  src="https://html.tailus.io/blocks/customers/openai.svg"
+                  src="/logos/openai.svg"
                   alt="OpenAI Logo"
-                  height="24"
+                  height="20"
+                  width="auto"
+                />
+              </div>
+
+              <div className="flex">
+                <img
+                  className="mx-auto h-4 w-fit dark:invert"
+                  src="/logos/copilot.svg"
+                  alt="Copilot Logo"
+                  height="16"
+                  width="auto"
+                />
+              </div>
+              <div className="flex">
+                <img
+                  className="mx-auto h-4 w-fit dark:invert"
+                  src="/logos/codex_light.svg"
+                  alt="Codex Logo"
+                  height="16"
+                  width="auto"
+                />
+              </div>
+              <div className="flex">
+                <img
+                  className="mx-auto h-5 w-fit dark:invert"
+                  src="/logos/anthropic_black.svg"
+                  alt="Anthropic Logo"
+                  height="20"
+                  width="auto"
+                />
+              </div>
+              <div className="flex">
+                <img
+                  className="mx-auto h-5 w-fit dark:invert"
+                  src="/logos/opencode.svg"
+                  alt="OpenCode Logo"
+                  height="20"
+                  width="auto"
+                />
+              </div>
+              <div className="flex">
+                <img
+                  className="mx-auto h-4 w-fit dark:invert"
+                  src="/logos/vercel.svg"
+                  alt="Vercel Logo"
+                  height="16"
                   width="auto"
                 />
               </div>
